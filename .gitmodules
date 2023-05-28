@@ -1,0 +1,3 @@
+[submodule "hexo-theme-kian"]
+	path = themes/kian
+	url = ../hexo-theme-kian.git

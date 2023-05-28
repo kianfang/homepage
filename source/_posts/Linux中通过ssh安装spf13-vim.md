@@ -18,7 +18,7 @@ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh
 REPO_URI="git@github.com:kianfang/spf13-vim.git" VUNDLE_URI="git@github.com:gmarik/vundle.git" sh spf13-vim.sh
 ```
 
-其中 [git@github.com:kianfang/spf13-vim.git](https://link.zhihu.com/?target=https%3A//github.com/kianfang/spf13-vim) 的源是`forked`自[spf13/spf13-vim](https://link.zhihu.com/?target=https%3A//github.com/spf13/spf13-vim) ，在其基础上将里面的https的仓库地址全部修改为ssh地址
+其中 [git@github.com:kianfang/spf13-vim.git](https://github.com/kianfang/spf13-vim) 的源是`forked`自[spf13/spf13-vim](https://github.com/spf13/spf13-vim) ，在其基础上将里面的https的仓库地址全部修改为ssh地址
 
 ### 3、注意事项
 

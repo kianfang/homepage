@@ -9,13 +9,13 @@ description: ''
 keywords:
 author: Kian
 language: 
-- zh-cn
-- en
+  - zh-CN
+  - en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://kianfang.github.io
+url: https://www.kianfang.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -53,7 +53,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: true 
   hljs: false
 prismjs:
   enable: false
@@ -102,9 +102,19 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: kian
+theme_config: 
+  links:
+    github: https://github.com/kianfang
+    twitter: https://twitter.com/kian_fang
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Server
+## Docs: https://github.com/hexojs/hexo-server#readme
+server:
+  port: 3000
+  cache: false
