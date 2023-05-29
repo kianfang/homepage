@@ -1,0 +1,33 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.card {
+  display: block;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.card-list {
+  list-style: none;
+}
+.card time {
+  color: #9a9a9a;
+  font-size: 0.8rem;
+}
+.pagination {
+  margin-top: var(--layout-gap-size);
+}
+.archive + .archive {
+  margin-top: var(--layout-gap-size);
+}
+.archive-title {
+  margin-bottom: 10px;
+}
+.card-list {
+  display: grid;
+  grid-gap: var(--layout-gap-size);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}

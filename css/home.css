@@ -1,0 +1,30 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.card {
+  display: block;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.card-list {
+  list-style: none;
+}
+.card time {
+  color: #9a9a9a;
+  font-size: 0.8rem;
+}
+.pagination {
+  margin-top: var(--layout-gap-size);
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-gap-size) 0;
+}
+.card-list + .pagination {
+  margin-top: var(--layout-gap-size);
+}
