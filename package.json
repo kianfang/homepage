@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "start": "hexo server",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "submodules": "git submodule update --init --recursive"
+    "submodules": "git submodule update --init --recursive",
+    "reinstall": "rm -rf node_modules && npm install"
   },
   "hexo": {
     "version": "6.3.0"
