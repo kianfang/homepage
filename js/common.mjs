@@ -6,8 +6,8 @@ let lastScrollTop = 0;
 
 // 监听滚动事件, 使header随着滚动条的滚动而隐藏或显示
 window.addEventListener('scroll', function(e) {
-  // 当前滚动条距离顶部距离
-  const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  // 当前滚动条距离顶部距离, IOS系统可以将滚动条拉到负数，这里校准一下，方便后续计算
+  const currentScrollTop = Math.max(window.pageYOffset || document.documentElement.scrollTop, 0);
   // 距离上次滚动后偏移的距离
   const distance = currentScrollTop - lastScrollTop;
   const transform = $header.style.transform;
