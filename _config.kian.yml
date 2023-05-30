@@ -7,8 +7,7 @@ menu:
 # https://giscus.app/
 giscus:
   enable: true
-  repo: kianfang/kianfang.github.io
+  repo: kianfang/kianfang
   repo_id: R_kgDOJXzVaA
   category: Comments
   category_id: DIC_kwDOJXzVaM4CW0EL
-
