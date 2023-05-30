@@ -66,14 +66,17 @@ a:hover {
 }
 #header {
   grid-area: header;
+  z-index: 3;
 }
 #content {
+  z-index: 1;
   grid-area: content;
 }
 #content:has(+#sidebar) {
   margin-left: var(--layout-gap-size);
 }
 #sidebar {
+  z-index: 2;
   grid-area: sidebar;
   height: max-content;
   position: sticky;
@@ -93,7 +96,6 @@ a:hover {
 #header a,
 #footer a {
   color: #fbfbfb;
-  font-size: 16px;
 }
 #header a:hover,
 #footer a:hover {
@@ -104,6 +106,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 0 10px;
+}
+#menu a {
+  font-size: 14px;
 }
 @media (max-width: 1080px) {
   body {
