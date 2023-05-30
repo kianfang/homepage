@@ -29,6 +29,10 @@ body {
   gap: var(--layout-gap-size);
   color: var(--font-color);
 }
+body:not(:has( #sidebar)) {
+  grid-template-areas: "header" "content" "footer";
+  grid-template-columns: minmax(0, 1fr);
+}
 body,
 menu,
 aside,
@@ -65,6 +69,8 @@ a:hover {
 }
 #content {
   grid-area: content;
+}
+#content:has(+#sidebar) {
   margin-left: var(--layout-gap-size);
 }
 #sidebar {

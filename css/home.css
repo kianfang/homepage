@@ -2,7 +2,6 @@
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .card {
-  display: block;
   border: 1px solid var(--border-color);
   padding: 10px;
   border-radius: 4px;
@@ -16,6 +15,9 @@
 .card time {
   color: #9a9a9a;
   font-size: 0.8rem;
+}
+.card a {
+  width: fit-content;
 }
 .pagination {
   margin-top: var(--layout-gap-size);
