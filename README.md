@@ -11,10 +11,10 @@ https://github.com/anuraghazra/github-readme-stats/issues/2149
 </a>
 
 <h3>About</h3>
-<p>- <a href="https://kianfang.com" target="_blank">Home</a></p>
+<p>- <a href="https://kianfang.com" target="_blank">Homepage</a> build with <a href="./.github/pages.md">Github Pages</a>. </p>
 
 <h3> Coffee ☕</h3>
-<p>- <a href="https://paypal.me/kianfang" target="_blank">PayPal</a> </p>
+<p>- <a href="https://paypal.me/kianfang" target="_blank">PayPal</a>.</p>
 
 
 
