@@ -1,0 +1,12 @@
+# 主题配置
+menu:
+  归档: /archives
+  关于: /about
+
+giscus:
+  enable: true
+  repo: kianfang/kianfang.github.io
+  repo_id: R_kgDOJXzVaA
+  category: Comments
+  category_id: DIC_kwDOJXzVaM4CW0EL
+
