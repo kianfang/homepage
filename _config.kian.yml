@@ -3,6 +3,8 @@ menu:
   归档: /archives
   关于: /about
 
+# giscus 评论系统
+# https://giscus.app/
 giscus:
   enable: true
   repo: kianfang/kianfang.github.io
