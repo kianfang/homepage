@@ -6,7 +6,7 @@ let lastScrollTop = 0;
 
 // 监听滚动事件, 使header随着滚动条的滚动而隐藏或显示
 window.addEventListener('scroll', function(e) {
-  // 当前滚动条距离顶部距离, IOS系统可以将滚动条拉到负数，这里校准一下，方便后续计算
+  // 当前滚动条距离顶部距离, iOS橡皮筋特性可以将滚动条拉到负数，这里校准一下，方便后续计算
   const currentScrollTop = Math.max(window.pageYOffset || document.documentElement.scrollTop, 0);
   // 距离上次滚动后偏移的距离
   const distance = currentScrollTop - lastScrollTop;
@@ -21,10 +21,13 @@ window.addEventListener('scroll', function(e) {
 
   if (distance < 0) {
     // 向上滚动
-    const top = translateY >= currentScrollTop ? currentScrollTop : baseTop;
-    deltaY = currentScrollTop - top;
+    // iOS橡皮筋特性，拉到底部可能会自动回弹
+    if (currentScrollTop + window.screen.height <= document.body.clientHeight) {
+      const top = translateY >= currentScrollTop ? currentScrollTop : baseTop;
+      deltaY = currentScrollTop - top;
 
-    $header.style.transform = `translateY(${top}px)`;
+      $header.style.transform = `translateY(${top}px)`;
+    }
   } else {
     // 向下移动
   }
