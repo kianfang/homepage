@@ -30,7 +30,7 @@ function compute(currentScrollTop) {
     const headerHeight = $header.clientHeight;
     const transform = $header.style.transform;
     const match = transform.match(/translateY\((-?\d+(\.\d+)?)px\)/);
-    // 当前header向DOM顶部便宜的距离（负数）
+    // 当前header向DOM顶部偏移的距离（负数）
     let deltaY = match ? parseFloat(match[1], 10) : 0;
 
     if (distance < 0) {
@@ -41,15 +41,18 @@ function compute(currentScrollTop) {
       deltaY = Math.max(deltaY - distance, -headerHeight);
     }
 
-    $header.style.transform = `translateY(${deltaY}px)`;
+    $header.style.cssText = [
+      `transform: translateY(${deltaY}px);`,
+      `opacity: ${1 - Math.abs(deltaY) / headerHeight};`,
+    ].join(' ');
 
-    if ($sidebar) {
-      $sidebar.style.transform = `translateY(${Math.min(headerHeight + deltaY, currentScrollTop)}px)`;
-    }
+    const sidebarTop = Math.min(headerHeight + deltaY, currentScrollTop + deltaY);
 
-    if ($toc) {
-      $toc.style.transform = `translateY(${Math.min(headerHeight + deltaY, currentScrollTop)}px)`;
-    }
+    [$sidebar, $toc].forEach($el => {
+      if ($el) {
+        $el.style.transform = `translateY(${sidebarTop}px)`;
+      }
+    })
 
     lastScrollTop = currentScrollTop;
   });
