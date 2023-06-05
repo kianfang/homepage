@@ -18,6 +18,35 @@
 .article-time {
   font-size: 0.85rem;
 }
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+  margin: 1em 0;
+  width: fit-content;
+}
+.article h1:hover .headerlink,
+.article h2:hover .headerlink,
+.article h3:hover .headerlink,
+.article h4:hover .headerlink,
+.article h5:hover .headerlink,
+.article h6:hover .headerlink,
+.article h1:focus .headerlink,
+.article h2:focus .headerlink,
+.article h3:focus .headerlink,
+.article h4:focus .headerlink,
+.article h5:focus .headerlink,
+.article h6:focus .headerlink,
+.article h1:active .headerlink,
+.article h2:active .headerlink,
+.article h3:active .headerlink,
+.article h4:active .headerlink,
+.article h5:active .headerlink,
+.article h6:active .headerlink {
+  display: inline-block;
+}
 .article h1 {
   font-size: 1.6rem;
   font-weight: 1000;
@@ -30,32 +59,31 @@
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 1.8em;
-  margin: 1em 0;
 }
 .article h3 {
   font-size: 1.3rem;
   font-weight: 800;
   line-height: 1.8em;
-  margin: 1em 0;
 }
 .article h4 {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.6em;
-  margin: 1em 0;
 }
 .article h5 {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.6em;
-  margin: 1em 0;
 }
 .article h6 {
   font-size: 1em;
   color: #656565;
   font-weight: 500;
-  line-height: 1.6em;
-  margin: 1em 0;
+}
+.article code {
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  padding: 0 0.2em;
+  color: var(--code-color);
 }
 .article hr {
   border: 1px dashed #ddd;
@@ -116,6 +144,9 @@
 .article p {
   line-height: 1.6em;
   margin: 1em 0;
+}
+.article p a {
+  padding: 0 0.2em;
 }
 .article table {
   line-height: 1.2em;
@@ -244,16 +275,6 @@
   overflow: auto;
   border-radius: 4px;
 }
-.article .highlight .gutter {
-  user-select: none;
-  position: sticky;
-  left: 0;
-}
-.article .highlight .gutter pre {
-  font-size: 0.85em;
-  text-align: right;
-  padding: 0 15px;
-}
 .article .highlight pre {
   border: none;
   margin: 0;
@@ -279,6 +300,19 @@
 }
 .article .highlight figcaption a {
   float: right;
+}
+.article .highlight .gutter {
+  user-select: none;
+  position: sticky;
+  left: 0;
+}
+.article .highlight .gutter pre {
+  font-size: 0.85em;
+  text-align: right;
+  padding: 0 15px;
+}
+.article .highlight .code {
+  padding-right: 15px;
 }
 .article .line {
   line-height: 20px;
@@ -331,8 +365,14 @@
 .article .gist .gist-file .gist-meta a:hover {
   text-decoration: underline;
 }
-.article code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  padding: 0 0.2em;
-  color: var(--code-color);
+.article .headerlink {
+  display: none;
+  float: right;
+}
+.article .headerlink::before {
+  content: "🔗";
+  margin: 0 8px;
+}
+.article .headerlink:hover {
+  text-decoration: none;
 }
