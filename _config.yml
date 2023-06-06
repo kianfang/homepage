@@ -108,6 +108,15 @@ theme_config:
     github: https://github.com/kianfang
     twitter: https://twitter.com/kian_fang
 
+# 图片懒加载
+## https://github.com/Troy-Yang/hexo-lazyload-image
+lazyload:
+  enable: true 
+  onlypost: true # optional
+  loadingImg: null # optional eg ./images/loading.gif
+  isSPA: false # optional
+  preloadRatio: 1 # optional, default is 1
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
