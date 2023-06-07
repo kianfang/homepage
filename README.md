@@ -6,17 +6,24 @@ https://github.com/anuraghazra/github-readme-stats/issues/2149
   <img alt="GithubStats" align="right" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kianfang&hide_border=true" />
 <a/>
 
-<a href="https://github.com/kianfang/kianfang" target="_blank">
+<a target="_blank" href="https://github.com/kianfang/kianfang">
   <img alt="ViewCount" src="https://views.whatilearened.today/views/github/kianfang/kianfang.svg?cache=remove" />
 </a>
 
-<h3>About</h3>
+<a title="Buy me a coffee" target="_blank" href="https://paypal.me/kianfang">
+  <img alt="Buy me a coffee" src="./images/paypal-coffee-shield.svg" />
+</a>
+
+<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay_qrcode.jpg">
+  <img alt="请喝奶茶" src="./images/alipay-milky_tea-shield.svg" />
+</a>
+
+<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat_pay_qrcode.jpg">
+  <img alt="请喝奶茶" src="./images/wechat-milky_tea-shield.svg" />
+</a>
+
+<h2>Hi, I'm Kian Fang.</h2>
 <p>- <a href="https://kianfang.com" target="_blank">Homepage</a> build with <a href="./.github/pages.md">Github Pages</a>. </p>
-
-<h3> Coffee ☕</h3>
-<p>- <a href="https://paypal.me/kianfang" target="_blank">PayPal</a>.</p>
-
-
 
 <!--
 **kianfang/kianfang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

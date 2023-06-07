@@ -1,0 +1,66 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100"
+  height="20"
+  role="img"
+  aria-label="Papal: Donate to him/her"
+>
+  <metadata>
+    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kian Fang</dc:creator>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2023-06-07</dc:date>
+    <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">https://github.com/kianfang</dc:source>
+  </metadata>
+  <title>Papal: Donate to him/her</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+    <stop offset="1" stop-opacity=".1" />
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="100" height="20" rx="3" fill="#fff" />
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="43" height="20" fill="#555" />
+    <rect x="43" width="57" height="20" fill="#97ca00" />
+    <rect width="100" height="20" fill="url(#s)" />
+  </g>
+  <g
+    fill="#fff"
+    text-anchor="middle"
+    font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+    text-rendering="geometricPrecision" font-size="110"
+  >
+    <text
+      aria-hidden="true"
+      x="222"
+      y="150"
+      fill="#010101"
+      fill-opacity=".3"
+      transform="scale(.1)"
+      textLength="330"
+    >Papal</text>
+    <text
+      x="222"
+      y="140"
+      transform="scale(.1)"
+      fill="#fff"
+      textLength="330"
+    >Papal</text>
+    <text
+      aria-hidden="true"
+      x="708"
+      y="150"
+      fill="#010101"
+      fill-opacity=".3"
+      transform="scale(.1)"
+      textLength="470"
+    >☕ Coffee</text>
+    <text
+      x="708"
+      y="140"
+      transform="scale(.1)"
+      fill="#fff"
+      textLength="470"
+    >☕ Coffee</text>
+  </g>
+</svg>
