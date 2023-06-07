@@ -4,7 +4,7 @@ https://github.com/anuraghazra/github-readme-stats/issues/2149
 -->
 <a href="https://github.com/kianfang">
   <img alt="GithubStats" align="right" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kianfang&hide_border=true" />
-<a/>
+</a>
 
 <a target="_blank" href="https://github.com/kianfang/kianfang">
   <img alt="ViewCount" src="https://views.whatilearened.today/views/github/kianfang/kianfang.svg?cache=remove" />
@@ -15,11 +15,11 @@ https://github.com/anuraghazra/github-readme-stats/issues/2149
 </a>
 
 <a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay_qrcode.jpg">
-  <img alt="请喝奶茶" src="./images/alipay-milky_tea-shield.svg" />
+  <img alt="请喝奶茶" src="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay-milky_tea-shield.svg" />
 </a>
 
 <a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat_pay_qrcode.jpg">
-  <img alt="请喝奶茶" src="./images/wechat-milky_tea-shield.svg" />
+  <img alt="请喝奶茶" src="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat-milky_tea-shield.svg" />
 </a>
 
 <h2>Hi, I'm Kian Fang.</h2>
