@@ -66,9 +66,13 @@ a:hover {
 }
 #header {
   grid-area: header;
-  z-index: 3;
   position: sticky;
+  z-index: 3;
   top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--layout-gap-size);
 }
 #content {
   z-index: 1;
@@ -85,11 +89,11 @@ a:hover {
 }
 #footer {
   grid-area: footer;
+  padding: var(--layout-gap-size);
 }
 #header,
 #footer {
   background-color: var(--header-bg-color);
-  padding: var(--layout-gap-size);
 }
 #header,
 #footer,
@@ -105,6 +109,7 @@ a:hover {
 #menu {
   display: flex;
   flex-direction: row;
+  margin: var(--layout-gap-size) 0;
   gap: 0 10px;
 }
 #menu a {
@@ -134,6 +139,17 @@ a:hover {
   #footer {
     border-top: 1px solid var(--border-color);
   }
+}
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+}
+.avatar img {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .widget {
   border: 1px solid var(--border-color);

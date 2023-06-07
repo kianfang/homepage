@@ -1,6 +1,10 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.article > .article-title {
+  margin-top: 0;
+  width: 100%;
+}
 .article-wrapper {
   display: flex;
   gap: 0 var(--layout-gap-size);
