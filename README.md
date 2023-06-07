@@ -14,11 +14,11 @@ https://github.com/anuraghazra/github-readme-stats/issues/2149
   <img alt="Buy me a coffee" src="./images/paypal-coffee-shield.svg" />
 </a>
 
-<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay_qrcode.jpg">
+<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay-qrcode.jpg">
   <img alt="请喝奶茶" src="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/alipay-milky_tea-shield.svg" />
 </a>
 
-<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat_pay_qrcode.jpg">
+<a title="请喝奶茶" target="_blank" href="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat_pay-qrcode.jpg">
   <img alt="请喝奶茶" src="https://cdn.jsdelivr.net/gh/kianfang/kianfang/images/wechat-milky_tea-shield.svg" />
 </a>
 
