@@ -3,7 +3,7 @@ Maximum retries exceeded Please add an env variable called PAT_1 with your githu
 https://github.com/anuraghazra/github-readme-stats/issues/2149
 -->
 <a href="https://github.com/kianfang">
-  <img alt="GithubStats" align="right" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kianfang&hide_border=true" />
+  <img alt="GithubStats" align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=kianfang&hide_border=true&hide_progress=true" />
 </a>
 
 <a target="_blank" href="https://github.com/kianfang/kianfang">
